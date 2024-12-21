@@ -29,7 +29,7 @@ function Login(){
         event.preventDefault();
         if(credentials.username!==""&&credentials.password!==""){
             try{
-                const res=await axios.post("http://localhost:5542/login",credentials);
+                const res=await axios.post("https://bookzy-back-end.onrender.com/login",credentials);
                 console.log("successfully login");
                 var y=res.data;
                 console.log(y);
