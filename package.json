@@ -18,6 +18,7 @@
     "node": "16.x"
   },
   "scripts": {
+    "preinstall": "rm -rf node_modules",
     "start": "npx react-scripts start",
     "build": "npx react-scripts build",
     "test": "react-scripts test",
