@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+button{
+    cursor:pointer;
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: #2C363F;
+    color: #F2F5EA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    height: 72px;
+    width: 100vw;
+}
+
+.site-title{
+    font-size: 2rem;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+
+
+}
+.nav>ul>li>button{
+    background-color: transparent;
+    border: none;
+    /* padding-top: 10px; */
+    color: white;
+    margin-top: 0px;
+    border-radius: 0px;
+}
+.nav>ul>li>div>div>button{
+    background-color: red;
+}
+
+.Genres, .Profile{
+    width: 200px;
+    padding-top: 10px;
+    background-color: rgb(189, 188, 188);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:65px;
+    z-index: 3;
+}
+.Genres>div{
+    padding-bottom: 20px;
+}
+
+
+
+.account_settings{
+    margin-left: 110PX;
+    width: max-content;
+    /* padding-left: 100px; */
+    background-color: rgb(189, 188, 188);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:65px;
+    z-index: 3;
+
+}
+
+
+/*.nav li.active{
+    background-color: #555;
+}
+*/
+/* .nav li:hover{
+    background-color: #191F24;
+}
+.nav li.searchbar:hover{
+   background-color: transparent;
+} */
+
+
+.searchbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchbar input{
+    border-radius: 0;
+    /* height: 19px; */
+    width: 200px;
+    padding:5px 20px;
+    border-radius: 15px;
+}
+
+
+/* Existing styles... */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav a {
+        justify-content: center;
+        padding: 0.5rem 0;
+    }
+
+    .site-title {
+        margin-bottom: 1rem;
+    }
+
+    .Genres, .Profile, .account_settings {
+        width: 100%;
+        box-sizing: border-box; /* Ensures padding is included in the width */
+        top: 72px; /* Adjusted to the height of the navbar */
+    }
+
+    .searchbar {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .searchbar input {
+        width: calc(100% - 4px); /* Adjusts the width to account for padding */
+    }
+}
+
+/* You might also want to hide certain elements or adjust font sizes for smaller screens */
+@media (max-width: 480px) {
+    .nav {
+        /* Adjust styles for very small screens if necessary */
+    }
+
+    /* Further adjustments for smaller screens */
+}
+.jus-cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.genre_button{
+    margin-top: 0px;
+}

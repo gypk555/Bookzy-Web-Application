@@ -1,0 +1,16 @@
+.in_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 229, 229);
+    
+}
+
+.in_footer input{
+    width: 150px;
+    /* background-color: aqua; */
+    border: 2px solid black;
+    border-radius: 5px !important;
+
+}

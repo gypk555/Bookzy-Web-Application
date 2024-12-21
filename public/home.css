@@ -1,0 +1,76 @@
+/* .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } */
+
+
+  
+
+
+  /* .grid-container {
+    display: grid;
+    grid-template-columns: 3 ;
+    grid-template-rows: 3;
+    background-color: rgb(252, 251, 251);
+    padding: 10px;
+  }
+/*    */
+  .grid-item {
+    display: inline-grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(249, 248, 248);
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+  } */
+  .grid-item-book{
+   
+    padding: 10px;
+   
+  }
+  .grid-item-buy {
+  width: 50px;
+  height: 25px;
+  border: 1px solid rgb(105, 227, 68) ;
+  background-color: rgb(143, 231, 116);
+  color: rgb(8, 8, 8);
+  border-radius: 5px;
+  text-align: justify;
+}
+.grid-item-buy1{
+  width: 100px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(83, 82, 82);
+  color: white;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(81, 108, 72);
+  border-radius: 5px;}
+  a{
+    text-decoration: none;
+    color: white;
+  }
