@@ -29,7 +29,7 @@ const Form = () =>{
         if(user_inputs.fname!=="" && user_inputs.lname!=="" && user_inputs.uname!=="" && user_inputs.password!=="" && user_inputs.mail!=="" && user_inputs.number!=="" && user_inputs.c_password!==""){
             if(user_inputs.c_password===user_inputs.password){
                 try{
-                    const res=await axios.post("http://localhost:5542/signup",user_inputs);
+                    const res=await axios.post("https://bookzy-back-end.onrender.com/signup",user_inputs);
                     if(res.data==='error' || res.data==="Username already exists.Please choose different one"){
                         alert(res.data);
                     }
